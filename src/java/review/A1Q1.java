@@ -17,16 +17,16 @@ public class A1Q1 {
      */
     public static void main(String[] args) {
         // Ask For user's name program
-        
+
         // Ask for user's name
         System.out.println("What is your name?");
-        
+
         // make scanner
         Scanner in = new Scanner(System.in);
-        
+
         // collect persons name
         String name = in.nextLine();
-        
+
         // say hello
         System.out.println("Hello " + name);
     }

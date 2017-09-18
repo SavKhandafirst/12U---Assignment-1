@@ -17,24 +17,24 @@ public class A1Q7 {
      */
     public static void main(String[] args) {
         // Create a scanner for input
-    	Scanner input = new Scanner(System.in);
-    	
-    	// population checker
-    	double currentPopulation = 6;
-    	
-    	// create year counter to see how many times the population increase is applied
-    	int count = 1999;
-    	
-    	// make while loop to figure out year automatically
-    	while(currentPopulation <= 10){
-        	currentPopulation = currentPopulation * 1.014;
-        	count = count + 1;
-        	
-    	}
-    	
-    	System.out.println("The Population will be 10 Billion in " + count);
+        Scanner input = new Scanner(System.in);
 
-        
-      
+        // population checker
+        double currentPopulation = 6;
+
+        // create year counter to see how many times the population increase is applied
+        int count = 1999;
+
+        // make while loop to figure out year automatically
+        while (currentPopulation <= 10) {
+            currentPopulation = currentPopulation * 1.014;
+            count = count + 1;
+
+        }
+        // tell the user when the population will be 10 billion
+        System.out.println("The Population will be 10 Billion in " + count);
+
+
+
     }
 }
